@@ -23,6 +23,7 @@ span{
 .testoleft{
   margin: 13px;
   font-size: 18px;
+  cursor: pointer;
 }
 #sottotitolo{
   text-align: center;
@@ -174,6 +175,7 @@ footer:after{
   padding-right: 32px;
   font-size: 22px;
   font-style: oblique;
+  text-decoration: underline;
   font-family: cursive;
 }
 #ricerche{
@@ -184,4 +186,18 @@ footer:after{
   text-align: center;
   padding: 0;
   margin-top: 20px;
+}
+.widget{
+  font-size: 18px;
+  padding: 20px;
+}
+#testowidget{
+  padding-top: 10px;
+  line-height: 150%;
+}
+.fine{
+  padding-top: 280px;
+  padding-left: 50px;
+  font-size: 18px;
+  line-height: 150%;
 }
