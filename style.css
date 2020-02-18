@@ -9,14 +9,14 @@ body{
 h1{
   text-align: center;
   color: white;
-  padding-top: 16vh;
+  padding-top: 10vh;
   font-size: 40px;
   font-family:sans-serif;
 }
 span{
   color: red;
 }
-#tabellaleft{
+.tabellaleft{
   padding-top: 20px;
   padding-left: 50px;
 }
@@ -131,12 +131,11 @@ section{
   border-radius: 8px;
 }
 footer{
-  margin-top: 100px;
+  margin-top: 40px;
   margin-bottom: 100px;
   height: 400px;
-  /*  */
-  border: solid; black;
-  /*  */
+  background-color: white;
+  border-radius: 8px;
 }
 footer:after{
   content:"";
@@ -147,53 +146,42 @@ footer:after{
   width: 20%;
   height: 60%;
   float: left;
-  /*  */
-  border: solid; black;
-  border-top: none;
-  border-left: none;
-  background-color: #989eab;
-  /*  */
-
+  border-right-style:inset;
+  border-color: #b3b3b3;
 }
 .commenti{
   width: 20%;
   height: 60%;
   float: left;
-  /*  */
-  border: solid; black;
-  border-top: none;
-  border-left: none;
-  background-color: #a879e0;
-  /*  */
-
+  border-right-style:inset;
+  border-color: #b3b3b3;
 }
 .categorie{
   width: 20%;
   height: 60%;
   float: left;
-  /*  */
-  border: solid; black;
-  border-top: none;
-  border-left: none;
-  background-color: #e248f0;
-  /*  */
-
+  border-right-style:inset;
+  border-color: #b3b3b3;
 }
 .widget{
   width: 40%;
   height: 60%;
   float: left;
-  /*  */
-  border: solid; black;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  background-color: #66052d;
-  /*  */
 }
-.fine{
-  background-color: white;
-  height: 100%;
-  width: 100%;
-
+#tags{
+  color: green;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 22px;
+  font-style: oblique;
+  font-family: cursive;
+}
+#ricerche{
+  padding: 32px;
+}
+#fot{
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin-top: 20px;
 }
