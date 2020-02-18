@@ -24,9 +24,6 @@ span{
   margin: 13px;
   font-size: 18px;
 }
-#arc1{
-
-}
 #sottotitolo{
   text-align: center;
   color: white;
@@ -37,6 +34,16 @@ span{
 #sezmen{
   text-align: center;
   font-size: 28px;
+}
+#barra{
+  margin: 32px;
+  font-size: 22px;
+  border-radius: 5px;
+  padding: 5px;
+}
+#bottone{
+  padding: 10px;
+  border-radius: 5px;
 }
 .sezmen2{
   display: inline-block;
@@ -65,7 +72,7 @@ header{
   border-radius: 8px;
 }
 main{
-  margin-top: 100px;
+  margin-top: 40px;
 
 }
 main:after{
@@ -84,19 +91,15 @@ section{
   width: 45%;
   height: 2000px;
   float: left;
-  /*  */
-  border: solid; black;
-  background-color: #75963c;
-  /*  */
+  background-color: white;
+  border-radius: 8px;
 }
 .art2{
   width: 30%;
-  height: 500px;
+  height: 360px;
   float: left;
-  /*  */
-  border: solid; black;
-  border-left: none;
-  /*  */
+  padding-left: 24px;
+
 }
 .correlati{
   height: 40%;
@@ -118,16 +121,14 @@ section{
 }
 .ricerca{
   height: 30%;
-  /*  */
-  border-bottom: solid; black;
-  background-color: #58e86b;
-  /*  */
+  background-color: white;
+  margin-bottom: 5%;
+  border-radius: 8px;
 }
 .tagghi{
   height: 70%;
-  /*  */
-  background-color: #2f384a;
-  /*  */
+  background-color: white;
+  border-radius: 8px;
 }
 footer{
   margin-top: 100px;
