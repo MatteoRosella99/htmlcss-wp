@@ -16,6 +16,17 @@ h1{
 span{
   color: red;
 }
+#tabellaleft{
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.testoleft{
+  margin: 13px;
+  font-size: 18px;
+}
+#arc1{
+
+}
 #sottotitolo{
   text-align: center;
   color: white;
@@ -55,7 +66,6 @@ header{
 }
 main{
   margin-top: 100px;
-  border-radius: 8px;
 
 }
 main:after{
@@ -64,16 +74,14 @@ main:after{
   clear: both;
 }
 .art1{
-  width: 30%;
-  height: 1000px;
-    float: left;
-  /*  */
-  border: solid; black;
-  border-right: none;
-  /*  */
+  width: 25%;
+  height: 800px;
+  float: left;
+  padding-right: 24px;
+
 }
 section{
-  width: 40%;
+  width: 45%;
   height: 2000px;
   float: left;
   /*  */
@@ -91,24 +99,22 @@ section{
   /*  */
 }
 .correlati{
-  height: 30%;
-  /*  */
-  border-bottom: solid; black;
-  background-color: #0ff595;
-  /*  */
+  height: 40%;
+  background-color: white;
+  margin-bottom: 5%;
+  border-radius: 8px;
 }
 .archivio{
-  height: 50%;
-  /*  */
-  border-bottom: solid; black;
-  background-color: #00fffb;
-  /*  */
+  height: 35%;
+  margin-bottom: 5%;
+  background-color: white;
+  border-radius: 8px;
+
 }
 .media{
-  height: 20%;
-  /*  */
-  background-color: #00475e;
-  /*  */
+  height: 25%;
+  background-color: white;
+  border-radius: 8px;
 }
 .ricerca{
   height: 30%;
